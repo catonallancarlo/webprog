@@ -1,0 +1,51 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding :40px;
+	height: 400px;
+	width: 400px;
+	margin: 100px ;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   color: white;
+}
+
+.profile_pic {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	
+}
+ul{
+	width: 80px%;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	background-color:#e91e63;
+}
+
+
